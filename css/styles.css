@@ -15,6 +15,7 @@
     --cubic: rgba(0.4, 0, 0.2, 1);
     --close-button-shadow: rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     --button-border: rgba(0, 0, 0, 0.1);
+    --grey-text: rgba(117, 117, 117, 1);
 }
   
 body {
@@ -768,6 +769,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    padding: 40px;
     width: 528px;
     height: 581px;
 
@@ -798,4 +800,92 @@ p {
     border-radius: 50px;
     border: 1px solid var(--button-border);
 }
-    
+
+.form-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    margin-bottom: 4px;
+    color: var(--grey-text);
+    font-size: 12px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.input-thumb {
+    content: "";
+    position: relative;
+}
+
+.icon-form {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textarea {
+    resize: none;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(117, 117, 117, 0.5);
+    letter-spacing: 0.01em;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+}
+
+.field-policy {
+    color: var(--grey-text);
+    font-size: 12px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-input {
+    appearance: none;
+    position: absolute;
+}
+.check-input:checked + .icon-check {
+    background-color: var(--accent-color);
+    background-image: url(/img/symbol-defs.svg#icon-check);
+    background-size: contain;
+    border-color: var(--accent-color);
+}
+.modal-form button {
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 400;
+    transition: background-color 250ms var(--cubic);
+    margin-left: 110px;
+    display: inline-block;
+    justify-content: center;
+}
