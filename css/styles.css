@@ -828,6 +828,14 @@ p {
     position: relative;
 }
 
+.input-form {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 35px;
+    height: 40px;
+    width: 100%;
+}
+
 .icon-form {
     position: absolute;
     left: 15px;
