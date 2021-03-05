@@ -809,7 +809,6 @@ p {
 }
 
 .form-field {
-    margin-bottom: 28px;
     display: flex;
     flex-direction: column;
 }
@@ -826,6 +825,7 @@ p {
 .input-thumb {
     content: "";
     position: relative;
+    margin-bottom: 10px;
 }
 
 .input-form {
@@ -845,13 +845,17 @@ p {
 
 .textarea {
     resize: none;
+    height: 120px;
+    padding: 12px 16px;
+
     font-size: 12px;
     line-height: 1.17;
-    color: rgba(117, 117, 117, 0.5);
+    
     letter-spacing: 0.01em;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding: 12px 16px;
+    
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .field-policy {
