@@ -833,6 +833,7 @@ p {
     width: 528px;
     height: 581px;
 
+    cursor: pointer;
     background-color: var(--primary-white-color);
     transition: transform 250ms var(--cubic);
     box-shadow: 0px 1px 3px var(--close-button-shadow);
@@ -896,6 +897,7 @@ p {
 .input-thumb:hover,
 .input-thumb:focus-within {
     fill: var(--accent-color);
+    transition: transform 250ms var(--cubic);
 }
 
 .input-form { 
@@ -911,6 +913,7 @@ p {
     outline: none;
     color: var(--accent-color);
     border-color: var(--accent-color);
+    transition: transform 250ms var(--cubic);
 }
 
 .icon-form {
@@ -940,6 +943,7 @@ p {
 .textarea:focus {
     border-color: var(--accent-color);
     outline: none;
+    transition: transform 250ms var(--cubic);
 }
 
 .policy-field {
