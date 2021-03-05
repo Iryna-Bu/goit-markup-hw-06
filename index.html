@@ -417,7 +417,6 @@
                 <div class="form-field">
                     <label for="name">Имя</label>
                 </div>
-
                 <div class="input-thumb">
                     <input type="text" class="input-form" name="name"id="name">
                     <svg class="icon-form" width="18px" height="18px">
@@ -448,18 +447,20 @@
                     <textarea name="comment"id="comment" placeholder="Введите текст" class="textarea"></textarea>
                 </div>
 
-                <label class="check">
-                    <input class="check-input" type="checkbox" checked>
-                    <svg class="icon-form" width="16px" height="15px">
-                        <use href="./img/symbol-defs.svg#icon-check"></use>
-                    </svg>
-                    <p class="conditions">Соглашаюсь с рассылкой и принимаю 
-                    <a href>Условия договора</a>
-                    </p>
-                </label>
+                <div class="policy-field">
+                    <label class="check">
+                        <input class="check-input" type="checkbox" checked>
+                        <svg class="icon-check" width="16px" height="15px">
+                            <use href="./img/symbol-defs.svg#icon-check"></use>
+                        </svg>
+                        <span class="conditions">Соглашаюсь с рассылкой и принимаю 
+                        <a class="agreement-link" href>Условия договора</a>
+                        </span>
+                    </label>
                 </div>
-
+               
                 <button type="submit">Отправить</button>
+            
             </form>
         </div>
     </div>           
