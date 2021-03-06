@@ -165,7 +165,6 @@ p {
     margin-top: 24px;
     margin-bottom: 25px;
     margin-right: 93px;
-    margin-left: 15px;
     
     /*background-color: tomato;*/
     color: var(--primary-text-color);
@@ -235,6 +234,7 @@ p {
     text-align: center;
     color: var(--primary-white-color);
     text-decoration: none;
+    outline: none;
 }
 
 .hero-button:hover,
@@ -425,7 +425,6 @@ p {
 .clients-list {
     display: flex;
     justify-content: center;
-    padding-right: 30px;
     padding-bottom: 94px;
     /*background-color: tomato;*/
 }
@@ -480,6 +479,7 @@ p {
 .elements-list {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 64px;
 }
 
 .element {
@@ -631,9 +631,9 @@ p {
 }
 
 .footer > .container {
-    width: 1200px;
     height: 252px;
 }
+
 .logo-social-links {
     display: flex;
     align-items: baseline;
@@ -711,7 +711,6 @@ p {
 
 .address {
     padding-bottom: 9px;
-    padding-left: 15px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -735,7 +734,6 @@ p {
 .item-contact {
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-left: 15px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -750,7 +748,7 @@ p {
 }
 
 .signup {
-    margin-left: 154px;
+    margin-left: auto;
 }
 .signup-title {
     display: block;
