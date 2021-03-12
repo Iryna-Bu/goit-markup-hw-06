@@ -234,7 +234,7 @@ p {
     text-align: center;
     color: var(--primary-white-color);
     text-decoration: none;
-    outline: none;
+    border: none;
 }
 
 .hero-button:hover,
